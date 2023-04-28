@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border: 2px solid #000;
+    background-color: #e8f0a1;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+
+
+}
+
+.container .item {
+    border: 2px solid #000;
+    background-color: #9cd9e4;
+    width: 200px;
+    height: 200px;
+    /* align-self: ; 셀프로 정렬하겠다~
+    center 가운데에
+     */
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: center;
+}
